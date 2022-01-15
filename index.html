@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bootstrap Templete-16</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- header-scetion-area-start  -->
+<div class="header-scetion">
+	<div class="container">
+		<div class="header-wrapper">
+			<div class="logo">
+				<img src="img/logo.png" alt="Images not found">
+			</div>
+			<div class="payment-item">
+				<h2>Enter payment information</h2>
+			</div>
+			<div class="Country">
+				<label>Country</label><br>
+				<select name="" id="">
+					<option value="0">United States</option>
+				</select>
+			</div>
+			<div class="Choose">
+				<h2>Choose payment plan</h2>
+				<div class="gender">
+					<input type="radio" name="gender">
+					<label for="">Yearly by credit card ($60.00/active user)</label><br>
+					<input type="radio" name="gender">
+					<label for="">Monthly by credit card ($5.00/active user)</label>
+				</div>
+			</div>
+			<div class="Enter-number">
+				<h2>Enter the number of active users</h2>
+				<input type="text">
+			</div>
+			<div class="Payment">
+				<h2>Payment Summary</h2>
+				<h3>$50.00 (10 monthly active users x $5.00 per month)</h3>
+				<p>10 monthly active users will be activated on your account.  You can invite additional users at<br>any time, and you will be charged for each additional active user who joins.</p>
+				<div class="Typ-checkbox">
+					<label>I agree to the Terms & Conditions
+						<input type="checkbox" checked="checked">
+						<span class="Typ-checkmark"></span>
+					</label>
+				</div>
+				<a href="#">Enter Credit Card Information</a>
+			</div>
+		</div>
+	</div>
+</div>			
+<!-- header-scetion-area-end  -->
+
+<!-- Fontawesome Script -->
+<script src="https://kit.fontawesome.com/7749c9f08a.js"></script>
+
+<!-- accordion Script -->
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>

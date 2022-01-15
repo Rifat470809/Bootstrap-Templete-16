@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+/*reset css code */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+/*reset css end */
+
+/*--  header-scetion-area-start  --*/
+.header-wrapper{
+	padding: 0 65px;
+	background: #ffffff;
+	padding-bottom: 40px;
+	box-shadow: 0 0 10px 6px #dedede;
+}
+
+.logo{
+	padding: 15px 0;
+	border-bottom: 2px solid #95a7ad;
+}
+
+.logo img{
+	width: 400px;
+}
+
+.payment-item h2{
+	font-size: 25px;
+	color: #000000;
+	font-weight: 700;
+	margin-bottom: 0;
+	padding: 25px 0;
+}
+
+.Country label{
+	font-size: 21px;
+	color: #4d4c4c;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.Country select{
+	width: 100%;
+	background: #ffffff;
+	border: 1px solid #bac6ca;
+	padding: 8px 30px;
+	margin-top: 5px;
+	outline: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.Choose h2{
+	font-size: 21px;
+	color: #4d4c4c;
+	margin-top: 35px;
+	margin-bottom: 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.gender{
+	margin-top: 25px;
+	margin-left: 37px;
+}
+
+.gender label{
+	font-size: 18px;
+	font-weight: 400;
+	color: #333;
+	margin-left: 10px;
+}
+
+.Enter-number{
+	border-bottom: 2px solid #95a7ad;
+	padding-bottom: 35px;
+}
+
+.Enter-number h2{
+	font-size: 20px;
+	margin-bottom: 0;
+	color: #222222;
+	margin-top: 25px;
+}
+
+.Enter-number input{
+	width: 100%;
+	background: #ffffff;
+	border: 1px solid #bac6ca;
+	padding: 5px 15px;
+	margin-top: 20px;
+	outline: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.Payment h2{
+	font-size: 18px;
+	color: #222222;
+	font-weight: 400;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+.Payment h3{
+	font-size: 21px;
+	color: #26c485;
+	font-weight: 400;
+	margin-bottom: 0;
+	margin-left: 50px;
+	padding-top: 25px;
+}
+
+.Payment p{
+	font-size: 18px;
+	color: #222222;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.Payment a{
+	text-decoration: none;
+	display: inline-block;
+	background: #26c485;
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: 35px;
+	padding: 6px 20px;
+	border-radius: 5px;
+}
+
+.Typ-checkbox{
+	margin-top: 25px;
+}
+
+.Typ-checkbox label{
+  display: block;
+  position: relative;
+  padding-left: 37px;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+.Typ-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.Typ-checkmark{
+  position: absolute;
+  top: 6px;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  border: 1px solid #95a7ad;
+  border-radius: 1px;
+  background: #ffffff;
+}
+
+.Typ-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.Typ-checkbox input:checked ~ .Typ-checkmark:after {
+  display: block;
+}
+
+.Typ-checkbox .Typ-checkmark:after {
+  left: 8px;
+  top: 3px;
+  width: 6px;
+  height: 12px;
+  border: solid #111111;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/*--  header-scetion-area-end  --*/
